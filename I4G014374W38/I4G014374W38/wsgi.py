@@ -1,5 +1,5 @@
 """
-WSGI config for zuriblog project.
+WSGI config for I4G014374W38 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'zuriblog.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'I4G014374W38.settings')
 
 application = get_wsgi_application()
